@@ -30,4 +30,16 @@ export abstract class Calculadora {
   static absoluto(a: number) {
     return Math.abs(a);
   }
+
+  static seno(a: number) {
+    return Math.sin(a);
+  }
+
+  static cosseno(a: number) {
+    return Math.cos(a);
+  }
+
+  static tangente(a: number) {
+    return Math.tan(a);
+  }
 }
